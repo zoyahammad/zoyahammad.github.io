@@ -7,7 +7,7 @@ const header = {
 const about = {
   // all the properties are optional - can be left empty or deleted
   name: 'Zoya Hammad',
-  role: 'Student',
+  role: 'Aspiring Computer Scientist',
   description:
     'Hey there! I\'m an IB Diploma student at the International Community School of Abidjan. I am  enthusiastic about the ever-evolving digital landscape and am committed to unraveling its mysteries through hands-on learning and innovation. Beyond academics and computer science, I actively engage in community service initiatives, write for my school newspaper, and crochet in my free time! Join me as I navigate this thrilling journey into the future of technology.',
   resume: 'https://example.com',
