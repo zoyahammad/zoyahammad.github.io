@@ -23,7 +23,7 @@ const projects = [
   {
     name: 'Scratch',
     description:
-      'The tool that first got me into programming was scratch. Overtime, I have made various Scratch projects including simple games, chatbots and stories. ',
+      'The tool that first got me into programming was scratch. Overtime, I have made various Scratch projects including simple games, chatbots, and stories. ',
      // stack: ['SASS', 'TypeScript', 'React'],
     // sourceCode: 'https://github.com',
     livePreview: 'https://scratch.mit.edu/users/zoyahammad/',
@@ -31,7 +31,7 @@ const projects = [
   {
     name: 'Roblox Youtuber',
     description:
-      'I have always been a huge fan of playing Roblox. A few years ago I started my own Roblox YouTube channel. I self taught myself how to edit videos and graphic design. ',
+      'I have always been a huge fan of playing Roblox. A few years ago I started my own Roblox YouTube channel. I self taught myself video editing, and graphic designing. ',
     // stack: ['SASS', 'TypeScript', 'React'],
     // sourceCode: 'https://github.com',
     livePreview: 'https://www.youtube.com/@ShiningDaisies',
@@ -56,7 +56,7 @@ const communityprojects = [{
   {
     name: 'English Tutor',
     description:
-      'English tutor for a Ukrainian refugee.Designed engaging lesson plans and helped my buddy improve her English communication skills.',
+      'English tutor for a Ukrainian refugee. Designed engaging lesson plans and helped my buddy improve her English communication skills.',
     // stack: ['SASS', 'TypeScript', 'React'],
     // sourceCode: 'https://github.com',
     livePreview: 'https://www.enginprogram.org/volunteer?gclid=CjwKCAiA-bmsBhAGEiwAoaQNmixSEK-ufTtdFQKg67AM_mvD3djGYVKq6EvHkCxt-ocdZN_xfrIHlxoC2NAQAvD_BwE',
