@@ -161,7 +161,7 @@ const skills = [
   'Git',
   'Scratch',
   'Java',
-  'Pyhton',
+  'Python',
 
 ]
 
