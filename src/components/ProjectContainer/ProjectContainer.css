@@ -32,3 +32,11 @@
 .project .link--icon {
   margin-left: 0.5em;
 }
+
+.project__image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 1em auto; /* Centers the image */
+  object-fit: contain; /* Ensures the image fits inside the container without distortion */
+}

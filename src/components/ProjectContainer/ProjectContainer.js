@@ -4,8 +4,17 @@ import LaunchIcon from '@material-ui/icons/Launch'
 import './ProjectContainer.css'
 
 const ProjectContainer = ({ project }) => (
+  
   <div className='project'>
     <h3>{project.name}</h3>
+    
+    {project.image && (
+      <img
+        src={`${project.image}`}
+        alt={`${project.name}`}
+        className='project__image'
+      />
+    )}
 
     <p className='project__description'>{project.description}</p>
     {project.stack && (

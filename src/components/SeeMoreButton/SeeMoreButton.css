@@ -1,0 +1,10 @@
+.about .btn--outline {
+    margin-right: 1em;
+  }
+
+.about__contact {
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
+    height: 100%; /* Ensure the container has a height, or define a specific height */
+  }
