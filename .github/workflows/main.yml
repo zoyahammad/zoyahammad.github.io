@@ -1,28 +1,56 @@
 name: CI
 
-# ...
+on:
+  push:
+    branches:
+      - main  # Trigger when pushing to the main branch, adjust if needed
+  pull_request:
+    branches:
+      - main
 
 jobs:
   build:
-    # ...
-
-  test:
-    name: Test
     runs-on: ubuntu-latest
     steps:
-      - name: Run Tests
-        run: <run the tests with code coverage>
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '16'  # Adjust this to the Node.js version your project requires
+
+      - name: Install dependencies
+        run: npm install
+
+  test:
+    name: Test and Generate Coverage Report
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '16'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run Tests with Code Coverage
+        run: npm run test -- --coverage  # Adjust according to your test command
 
       - name: Setup Pages
         if: github.ref == 'refs/heads/main'
         uses: actions/configure-pages@v3
 
-      - name: Upload Artifact
+      - name: Upload Coverage Report Artifact
         if: github.ref == 'refs/heads/main'
         uses: actions/upload-pages-artifact@v1
         with:
-          # location of the coverage artifacts
-          path: "./coverage"
+          # Location of the code coverage artifacts
+          path: "./coverage"  # Ensure this points to the correct location of your coverage report
 
   deploy-coverage:
     if: github.ref == 'refs/heads/main'
@@ -30,11 +58,11 @@ jobs:
     needs: test
     
     permissions:
-      pages: write
+      pages: write  # Grants permission to write to GitHub Pages
       id-token: write
 
     environment:
-      # environment created automatically by GitHub
+      # Environment created automatically by GitHub
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
 
