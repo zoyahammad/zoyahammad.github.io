@@ -3,6 +3,7 @@
 Macbook:
 
 ```
+npm install
 export NODE_OPTIONS=--openssl-legacy-provider
 npm start
 ```
@@ -10,6 +11,7 @@ npm start
 Windows
 
 ```
+npm install
 set NODE_OPTIONS=--openssl-legacy-provider
 npm start
 ```
@@ -39,8 +41,8 @@ git clone https://github.com/zoyahammad/zoyahammad.github.io
 - To build and deploy, run the following commands:
 
 ```shell
-npm build
-npm deploy
+npm run build
+npm run deploy
 ```
 
 ## License
