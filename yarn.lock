@@ -1915,11 +1915,12 @@
     "@types/react" "*"
 
 "@types/react@*", "@types/react@^16.8.6 || ^17.0.0":
-  version "18.3.7"
-  resolved "https://registry.npmjs.org/@types/react/-/react-18.3.7.tgz"
-  integrity sha512-KUnDCJF5+AiZd8owLIeVHqmW9yM4sqmDVf2JRJiBMFkGvkoZ4/WyV2lL4zVsoinmRS/W3FeEdZLEWFRofnT2FQ==
+  version "17.0.83"
+  resolved "https://registry.npmjs.org/@types/react/-/react-17.0.83.tgz"
+  integrity sha512-l0m4ArKJvmFtR4e8UmKrj1pB4tUgOhJITf+mADyF/p69Ts1YAR/E+G9XEM0mHXKVRa1dQNHseyyDNzeuAXfXQw==
   dependencies:
     "@types/prop-types" "*"
+    "@types/scheduler" "^0.16"
     csstype "^3.0.2"
 
 "@types/resolve@0.0.8":
@@ -1928,6 +1929,11 @@
   integrity sha512-auApPaJf3NPfe18hSoJkp8EbZzer2ISk7o8mCC3M9he/a04+gbMF97NkpD2S8riMGvm4BMRI59/SZQSaLTKpsQ==
   dependencies:
     "@types/node" "*"
+
+"@types/scheduler@^0.16":
+  version "0.16.8"
+  resolved "https://registry.npmjs.org/@types/scheduler/-/scheduler-0.16.8.tgz"
+  integrity sha512-WZLiwShhwLRmeV6zH+GkbOFT6Z6VklCItrDioxUnv+u4Ll+8vKeFySoFyK/0ctcRpOmwAicELfmys1sDc/Rw+A==
 
 "@types/source-list-map@*":
   version "0.1.6"

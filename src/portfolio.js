@@ -13,7 +13,7 @@ const about = {
   resume: 'https://drive.google.com/file/d/1qNpQcfM-C_DpoLLCUoFDo2Bwy8MpKJfR/view?usp=sharing',
   social: {
     linkedin: 'https://www.linkedin.com/in/zoya-hammad-5194812a6/',
-    github: 'https://github.com/zoyahammadd',
+    github: 'https://github.com/zoyahammad',
     medium: 'https://medium.com/@zoya.hammad99'
   },
 }
@@ -27,7 +27,7 @@ const hackathons = [
       'Conquer Code with Confidence: a mentor-match application that provides a safe-space for women to have participate in fun coding challenges and get inspired from each other',
       image: '/images/1.png',
       stack: ['JavaScript', 'React'],
-      livePreview: 'codeconfidence.netlify.app',
+      livePreview: 'https://codeconfidence.netlify.app/',
   },
   {
     name: 'Cheer-Check',
@@ -45,7 +45,7 @@ const hackathons = [
     stack: ['ml5', 'JavaScript','React'],
     image: '/images/3.png',
     // sourceCode: 'https://github.com',
-    livePreview: 'ecohabitat.netlify.app',
+    livePreview: 'https://ecohabitat.netlify.app/',
   },
 ]
 
