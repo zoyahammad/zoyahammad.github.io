@@ -13,7 +13,7 @@ const about = {
   resume: 'https://drive.google.com/file/d/1qNpQcfM-C_DpoLLCUoFDo2Bwy8MpKJfR/view?usp=sharing',
   social: {
     linkedin: 'https://www.linkedin.com/in/zoya-hammad-5194812a6/',
-    github: 'https://github.com/zoyahammad',
+    github: 'https://github.com/zoyahammadd',
     medium: 'https://medium.com/@zoya.hammad99'
   },
 }
